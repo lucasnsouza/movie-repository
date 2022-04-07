@@ -8,36 +8,35 @@ export const Container = styled.div`
 `
 
 export const MovieList = styled.ul`
-    ul {
-        list-style: none;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-        column-gap: 3rem;
-        row-gap: 4rem;
-    }
+list-style: none;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+column-gap: 3rem;
+row-gap: 4rem;
+`
 
-    li {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+export const Movie = styled.li`
+display: flex;
+flex-direction: column;
+align-items: center;
 
-    img {
-        width: 180px;
-        border-radius: 1rem;
-        margin-bottom: 2rem;
-    }
+img {
+    width: 180px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
 
-    span {
-        font-weight: bold;
-        font-size: 120%;
-    }
+span {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
 
-    a {
-        transition: all 0.3s;
-    }
+a {
+    transition: all 0.3s;
+}
 
-    a:hover {
-        transform: scale(1.1);
-    }
+a:hover {
+    transform: scale(1.1);
+}
 `
