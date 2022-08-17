@@ -49,7 +49,7 @@ function Details() {
                     <h1>{movie.title}</h1>
                     <span>Overview: {movie.overview}</span>
                     <span className="release-date">Release date: {movie.release_date}</span>
-                    <Link to="/">
+                    <Link to="/movie-repository/">
                     <button>Go back</button>
                     </Link>
                 </div>

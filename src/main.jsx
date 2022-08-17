@@ -8,8 +8,8 @@ import Home from "./pages/Home";
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />}></Route>
-      <Route path="/details/:id" element={<Details />}></Route>
+      <Route path="/movie-repository/" element={<Home />}></Route>
+      <Route path="/movie-repository/details/:id" element={<Details />}></Route>
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")

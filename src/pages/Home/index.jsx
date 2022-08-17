@@ -30,7 +30,7 @@ function Home() {
         {movies.map((movie) => {
           return (
             <Movie key={movie.id}>
-              <Link to={`/details/${movie.id}`}>
+              <Link to={`/movie-repository/details/${movie.id}`}>
                 <img
                   src={`${all_image_path}${movie.poster_path}`}
                   alt={movie.title}
