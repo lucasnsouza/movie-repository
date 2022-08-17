@@ -53,4 +53,10 @@ span {
 .release-date {
     opacity: 0.5;
 }
+
+@media (max-width: 770px) {
+    .movie {
+        flex-direction: column
+    }
+}
 `
